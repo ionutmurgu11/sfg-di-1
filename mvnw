@@ -19,11 +19,15 @@
 # ----------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 # Maven2 Start Up Batch script
 =======
 # Maven Start Up Batch script
 >>>>>>> Stashed changes
+=======
+# Maven Start Up Batch script
+>>>>>>> Different types of Dependency Injection
 #
 # Required ENV vars:
 # ------------------
@@ -216,6 +220,7 @@ else
       echo "Couldn't find .mvn/wrapper/maven-wrapper.jar, downloading it ..."
     fi
     if [ -n "$MVNW_REPOURL" ]; then
+<<<<<<< HEAD
 <<<<<<< Updated upstream
       jarUrl="$MVNW_REPOURL/io/takari/maven-wrapper/0.5.5/maven-wrapper-0.5.5.jar"
     else
@@ -225,6 +230,11 @@ else
     else
       jarUrl="https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
 >>>>>>> Stashed changes
+=======
+      jarUrl="$MVNW_REPOURL/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
+    else
+      jarUrl="https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
+>>>>>>> Different types of Dependency Injection
     fi
     while IFS="=" read key value; do
       case "$key" in (wrapperUrl) jarUrl="$value"; break ;;
@@ -256,11 +266,15 @@ else
         else
             curl --user $MVNW_USERNAME:$MVNW_PASSWORD -o "$wrapperJarPath" "$jarUrl" -f
         fi
+<<<<<<< HEAD
 <<<<<<< Updated upstream
         
 =======
 
 >>>>>>> Stashed changes
+=======
+
+>>>>>>> Different types of Dependency Injection
     else
         if [ "$MVNW_VERBOSE" = true ]; then
           echo "Falling back to using Java to download"
