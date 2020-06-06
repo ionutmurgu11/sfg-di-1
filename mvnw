@@ -19,7 +19,11 @@
 # ----------------------------------------------------------------------------
 
 # ----------------------------------------------------------------------------
+<<<<<<< Updated upstream
 # Maven2 Start Up Batch script
+=======
+# Maven Start Up Batch script
+>>>>>>> Stashed changes
 #
 # Required ENV vars:
 # ------------------
@@ -212,9 +216,15 @@ else
       echo "Couldn't find .mvn/wrapper/maven-wrapper.jar, downloading it ..."
     fi
     if [ -n "$MVNW_REPOURL" ]; then
+<<<<<<< Updated upstream
       jarUrl="$MVNW_REPOURL/io/takari/maven-wrapper/0.5.5/maven-wrapper-0.5.5.jar"
     else
       jarUrl="https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/0.5.5/maven-wrapper-0.5.5.jar"
+=======
+      jarUrl="$MVNW_REPOURL/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
+    else
+      jarUrl="https://repo.maven.apache.org/maven2/io/takari/maven-wrapper/0.5.6/maven-wrapper-0.5.6.jar"
+>>>>>>> Stashed changes
     fi
     while IFS="=" read key value; do
       case "$key" in (wrapperUrl) jarUrl="$value"; break ;;
@@ -246,7 +256,11 @@ else
         else
             curl --user $MVNW_USERNAME:$MVNW_PASSWORD -o "$wrapperJarPath" "$jarUrl" -f
         fi
+<<<<<<< Updated upstream
         
+=======
+
+>>>>>>> Stashed changes
     else
         if [ "$MVNW_VERBOSE" = true ]; then
           echo "Falling back to using Java to download"

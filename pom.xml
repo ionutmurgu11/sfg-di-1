@@ -5,6 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< Updated upstream
 		<version>2.2.2.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -13,6 +14,16 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>sfg-di</name>
 	<description>Dependency Injection examples</description>
+=======
+		<version>2.3.0.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.ionutmurgu</groupId>
+	<artifactId>sfg-di</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>sfg-di</name>
+	<description>Dependency injection examples</description>
+>>>>>>> Stashed changes
 
 	<properties>
 		<java.version>11</java.version>
